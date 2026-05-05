@@ -8,11 +8,12 @@ Update this file whenever the current phase, active feature, or implementation s
 
 ## Current Goal
 
-- Feature 02 (TBD — check feature-specs for next spec)
+- Feature 03 (TBD — check feature-specs for next spec)
 
 ## Completed
 
 - **01-design-system**: shadcn/ui installed and configured (new-york style, Tailwind v4, cssVariables). Components added: Button, Card, Dialog, Input, Tabs, Textarea, ScrollArea. `lucide-react` installed. `lib/utils.ts` created with `cn()`. Dark theme tokens defined in `globals.css` via `@theme inline`. `npm run build` passes.
+- **02-editor**: Editor chrome components created. `components/editor/editor-navbar.tsx` — fixed top navbar with sidebar toggle using `PanelLeftOpen`/`PanelLeftClose` icons, dark background with bottom border. `components/editor/project-sidebar.tsx` — floating overlay sidebar (does not push content), slides in from left via CSS transform, accepts `isOpen`/`onClose` props, Projects header + close button, shadcn Tabs (My Projects / Shared) with empty placeholder states, full-width New Project button with Plus icon. `npm run build` passes.
 
 ## In Progress
 
@@ -20,7 +21,7 @@ Update this file whenever the current phase, active feature, or implementation s
 
 ## Next Up
 
-- Feature 02 (TBD — check feature-specs)
+- Feature 03 (TBD — check feature-specs)
 
 ## Open Questions
 
