@@ -17,7 +17,9 @@ export function EditorShell({ children }: { children: React.ReactNode }) {
         isOpen={sidebarOpen}
         onClose={() => setSidebarOpen(false)}
       />
-      <main className="pt-12">{children}</main>
+      <main className="fixed inset-x-0 top-12 bottom-0 overflow-y-auto">
+        {children}
+      </main>
     </>
   )
 }
